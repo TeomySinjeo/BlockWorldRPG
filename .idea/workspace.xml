@@ -4,7 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e472b7-5a39-4b91-8787-8d633b19953d" name="Changes" comment="" />
+    <list default="true" id="33e472b7-5a39-4b91-8787-8d633b19953d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/chain/ArmorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/chain/DamageChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/chain/DamageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/chain/ShieldHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/command/AttackCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/command/CommandInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/command/DefendCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/command/GameCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/command/HealCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/interpreter/AndExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/interpreter/ComparisonExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/interpreter/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/interpreter/ExpressionParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/iterator/GameItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/iterator/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/iterator/InventoryIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/mediator/BattleMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/mediator/BattleParticipant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/mediator/BattleSetup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/mediator/GameBattleMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/memento/CharacterHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/memento/CharacterMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/memento/CharacterOriginator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/observer/BattleLogObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/observer/GameEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/observer/GameEventManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/observer/GameObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/state/CharacterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/state/CharacterStateContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/state/DeadState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/state/NormalState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/state/StunnedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/strategy/AggressiveStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/strategy/BalancedStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/strategy/CombatCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/strategy/CombatStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/strategy/DefensiveStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/templatemethod/BossChallenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/templatemethod/DungeonChallenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/templatemethod/GameChallenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/visitor/ArcherUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/visitor/CharacterInfoVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/visitor/CharacterVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/visitor/CombatPowerVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/visitor/GameCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/visitor/MageUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg/behavioral/visitor/WarriorUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rpg/behavioral/chain/DamageChainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rpg/behavioral/command/CommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rpg/behavioral/interpreter/ExpressionParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rpg/behavioral/iterator/InventoryIteratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rpg/behavioral/mediator/BattleMediatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rpg/behavioral/memento/CharacterMementoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rpg/behavioral/observer/GameEventManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rpg/behavioral/state/CharacterStateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rpg/behavioral/strategy/CombatStrategyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rpg/behavioral/templatemethod/GameChallengeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rpg/behavioral/visitor/CharacterVisitorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,29 +73,57 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;TeomySinjeo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/TeomySinjeo/BlockWorldRPG.git&quot;,
+    &quot;accountId&quot;: &quot;3c037bd6-bd8d-4995-abfb-28c2e06860b6&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3,
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3LGx4TR2DACWuokRHGdvfOlVvvK" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.BattleMediatorTest.executor": "Run",
+    "JUnit.CharacterMementoTest.executor": "Run",
+    "JUnit.CharacterStateTest.executor": "Run",
+    "JUnit.CharacterVisitorTest.executor": "Run",
+    "JUnit.CombatStrategyTest.executor": "Run",
+    "JUnit.CommandTest.executor": "Run",
+    "JUnit.DamageChainTest.executor": "Run",
+    "JUnit.ExpressionParserTest.executor": "Run",
+    "JUnit.GameChallengeTest.executor": "Run",
+    "JUnit.GameEventManagerTest.executor": "Run",
+    "JUnit.InventoryIteratorTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.BlockWorldRPG [clean].executor": "Run",
     "Maven.BlockWorldRPG [test].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "feature/behavioral-patterns",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
@@ -50,23 +138,94 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rpg.Main" />
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="rpg.behavioral" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CharacterVisitorTest">
+    <configuration name="CharacterStateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlockWorldRPG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rpg.*" />
+          <option name="PATTERN" value="rpg.behavioral.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="rpg.behavioral.state" />
+      <option name="MAIN_CLASS_NAME" value="rpg.behavioral.state.CharacterStateTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CharacterVisitorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BlockWorldRPG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rpg.behavioral.visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rpg.behavioral.visitor" />
+      <option name="MAIN_CLASS_NAME" value="rpg.behavioral.visitor.CharacterVisitorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CombatStrategyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BlockWorldRPG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rpg.behavioral.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rpg.behavioral.strategy" />
+      <option name="MAIN_CLASS_NAME" value="rpg.behavioral.strategy.CombatStrategyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameChallengeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BlockWorldRPG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rpg.behavioral.templatemethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rpg.behavioral.templatemethod" />
+      <option name="MAIN_CLASS_NAME" value="rpg.behavioral.templatemethod.GameChallengeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameEventManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BlockWorldRPG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rpg.behavioral.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rpg.behavioral.observer" />
+      <option name="MAIN_CLASS_NAME" value="rpg.behavioral.observer.GameEventManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CharacterVisitorTest" />
+        <item itemvalue="JUnit.GameChallengeTest" />
+        <item itemvalue="JUnit.CombatStrategyTest" />
+        <item itemvalue="JUnit.CharacterStateTest" />
+        <item itemvalue="JUnit.GameEventManagerTest" />
       </list>
     </recent_temporary>
   </component>
