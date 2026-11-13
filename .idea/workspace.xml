@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33e472b7-5a39-4b91-8787-8d633b19953d" name="Changes" comment="" />
+    <list default="true" id="33e472b7-5a39-4b91-8787-8d633b19953d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg/builder/CharacterBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg/generative/builder/CharacterBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg/character/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg/generative/character/Archer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg/character/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg/generative/character/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg/character/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg/generative/character/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg/character/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg/generative/character/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg/config/GameSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg/generative/config/GameSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg/equipment/Armor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg/generative/equipment/Armor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg/equipment/EquipmentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg/generative/equipment/EquipmentFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg/equipment/FreedomArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg/generative/equipment/FreedomArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg/equipment/FreedomEquipmentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg/generative/equipment/FreedomEquipmentFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg/equipment/FreedomSword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg/generative/equipment/FreedomSword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg/equipment/VoidArmor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg/generative/equipment/VoidArmor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg/equipment/VoidAxe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg/generative/equipment/VoidAxe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg/equipment/VoidEquipmentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg/generative/equipment/VoidEquipmentFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg/equipment/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg/generative/equipment/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg/factory/ArcherFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg/generative/factory/ArcherFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg/factory/CharacterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg/generative/factory/CharacterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg/factory/MageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg/generative/factory/MageFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg/factory/WarriorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg/generative/factory/WarriorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg/prototype/EnemyPrototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg/generative/prototype/EnemyPrototype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rpg/CharacterBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rpg/generative/CharacterBuilderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rpg/CharacterFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rpg/generative/CharacterFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rpg/EnemyPrototypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rpg/generative/EnemyPrototypeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rpg/EquipmentFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rpg/generative/EquipmentFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rpg/GameSettingsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rpg/generative/GameSettingsTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,39 +45,55 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;TeomySinjeo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/TeomySinjeo/BlockWorldRPG.git&quot;,
+    &quot;accountId&quot;: &quot;3c037bd6-bd8d-4995-abfb-28c2e06860b6&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3,
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3LGx4TR2DACWuokRHGdvfOlVvvK" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.BlockWorldRPG [clean].executor": "Run",
-    "Maven.BlockWorldRPG [test].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.BlockWorldRPG [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.BlockWorldRPG [test].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="rpg.Main" />

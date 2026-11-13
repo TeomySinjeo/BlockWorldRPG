@@ -1,15 +1,15 @@
 
 package rpg;
 
-import rpg.character.Character;
-import rpg.config.GameSettings;
-import rpg.equipment.EquipmentFactory;
-import rpg.equipment.FreedomEquipmentFactory;
-import rpg.equipment.VoidEquipmentFactory;
-import rpg.factory.ArcherFactory;
-import rpg.factory.CharacterFactory;
-import rpg.factory.MageFactory;
-import rpg.factory.WarriorFactory;
+import rpg.generative.character.Character;
+import rpg.generative.config.GameSettings;
+import rpg.generative.equipment.EquipmentFactory;
+import rpg.generative.equipment.FreedomEquipmentFactory;
+import rpg.generative.equipment.VoidEquipmentFactory;
+import rpg.generative.factory.ArcherFactory;
+import rpg.generative.factory.CharacterFactory;
+import rpg.generative.factory.MageFactory;
+import rpg.generative.factory.WarriorFactory;
 
 import java.util.Scanner;
 
