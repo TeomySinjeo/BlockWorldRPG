@@ -2,6 +2,7 @@
 package rpg.generative;
 
 import org.junit.jupiter.api.Test;
+import rpg.generative.config.Difficulty;
 import rpg.generative.config.GameSettings;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -22,9 +23,7 @@ class GameSettingsTest {
 
         settings.setDifficulty("HARD");
 
-        assertEquals("HARD", settings.getDifficulty());
-
-        settings.setDifficulty("NORMAL");
+        assertEquals(Difficulty.HARD, settings.getDifficulty());
     }
 
     @Test

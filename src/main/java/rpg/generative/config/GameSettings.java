@@ -6,7 +6,7 @@ public final class GameSettings {
     private static final GameSettings INSTANCE = new GameSettings();
 
     private String worldName = "BlockWorld";
-    private String difficulty = "NORMAL";
+    private Difficulty difficulty = Difficulty.NORMAL;
     private double damageMultiplier = 1.0;
 
     private GameSettings() {
@@ -30,20 +30,35 @@ public final class GameSettings {
         this.worldName = worldName;
     }
 
-    public String getDifficulty() {
+    public Difficulty getDifficulty() {
         return difficulty;
     }
 
     public void setDifficulty(String difficulty) {
-        if (!"EASY".equals(difficulty)
-                && !"NORMAL".equals(difficulty)
-                && !"HARD".equals(difficulty)) {
+        if (difficulty == null) {
             throw new IllegalArgumentException(
-                    "Ошибка: Данного уровня сложности не существует"
+                    "Уровень сложности не может быть null"
             );
         }
 
-        this.difficulty = difficulty;
+        switch (difficulty.toUpperCase()) {
+            case "EASY":
+                this.difficulty = Difficulty.EASY;
+                break;
+
+            case "NORMAL":
+                this.difficulty = Difficulty.NORMAL;
+                break;
+
+            case "HARD":
+                this.difficulty = Difficulty.HARD;
+                break;
+
+            default:
+                throw new IllegalArgumentException(
+                        "Ошибка: Данного уровня сложности не существует"
+                );
+        }
     }
 
     public double getDamageMultiplier() {
@@ -61,3 +76,4 @@ public final class GameSettings {
         this.damageMultiplier = damageMultiplier;
     }
 }
+

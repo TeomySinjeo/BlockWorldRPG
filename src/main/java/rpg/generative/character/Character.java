@@ -1,8 +1,8 @@
 
 package rpg.generative.character;
 
-import rpg.generative.equipment.Armor;
-import rpg.generative.equipment.Weapon;
+import rpg.generative.equipment.armor.Armor;
+import rpg.generative.equipment.weapon.Weapon;
 
 import java.util.ArrayList;
 import java.util.List;
