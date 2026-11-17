@@ -2,6 +2,7 @@
 package rpg.behavioral.strategy;
 
 import org.junit.jupiter.api.Test;
+import rpg.generative.character.Warrior;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -10,11 +11,11 @@ class CombatStrategyTest {
     @Test
     void shouldDealDoubleDamageWithAggressiveStrategy() {
         CombatCharacter warrior = new CombatCharacter(
-                "Воин", 100, 20, new AggressiveStrategy()
+                new Warrior("Воин"), 100, 20, new AggressiveStrategy()
         );
 
         CombatCharacter zombie = new CombatCharacter(
-                "Зомби", 100, 10, new BalancedStrategy()
+                 new Warrior("Воин Ада"), 100, 10, new BalancedStrategy()
         );
 
         warrior.attack(zombie);
@@ -25,11 +26,11 @@ class CombatStrategyTest {
     @Test
     void shouldDealHalfDamageWithDefensiveStrategy() {
         CombatCharacter warrior = new CombatCharacter(
-                "Воин", 100, 20, new DefensiveStrategy()
+                 new Warrior("Воин"), 100, 20, new DefensiveStrategy()
         );
 
         CombatCharacter enemy = new CombatCharacter(
-                "Зомби", 100, 10, new BalancedStrategy()
+                new Warrior("Воин Ада"), 100, 10, new BalancedStrategy()
         );
 
         warrior.attack(enemy);
@@ -40,11 +41,11 @@ class CombatStrategyTest {
     @Test
     void shouldDealNormalDamageWithBalancedStrategy() {
         CombatCharacter warrior = new CombatCharacter(
-                "Воин", 100, 20, new BalancedStrategy()
+                 new Warrior("Воин"), 100, 20, new BalancedStrategy()
         );
 
         CombatCharacter enemy = new CombatCharacter(
-                "Зомби", 100, 10, new BalancedStrategy()
+                 new Warrior("Воин Ада"), 100, 10, new BalancedStrategy()
         );
 
         warrior.attack(enemy);
@@ -55,7 +56,7 @@ class CombatStrategyTest {
     @Test
     void shouldReduceIncomingDamageWithDefensiveStrategy() {
         CombatCharacter warrior = new CombatCharacter(
-                "Воин", 100, 20, new DefensiveStrategy()
+                 new Warrior("Воин"), 100, 20, new DefensiveStrategy()
         );
 
         warrior.receiveDamage(40);
@@ -66,11 +67,11 @@ class CombatStrategyTest {
     @Test
     void shouldChangeStrategyDuringBattle() {
         CombatCharacter warrior = new CombatCharacter(
-                "Воин", 100, 20, new BalancedStrategy()
+                 new Warrior("Воин"), 100, 20, new BalancedStrategy()
         );
 
         CombatCharacter enemy = new CombatCharacter(
-                "Зомби", 100, 10, new BalancedStrategy()
+                 new Warrior("Воин Ада"), 100, 10, new BalancedStrategy()
         );
 
         warrior.setStrategy(new AggressiveStrategy());
@@ -82,7 +83,7 @@ class CombatStrategyTest {
     @Test
     void shouldNotReduceHealthBelowZero() {
         CombatCharacter warrior = new CombatCharacter(
-                "Воин", 10, 20, new BalancedStrategy()
+                 new Warrior("Воин"), 10, 20, new BalancedStrategy()
         );
 
         warrior.receiveDamage(100);
@@ -94,18 +95,18 @@ class CombatStrategyTest {
     void shouldRejectNullStrategy() {
         assertThrows(
                 IllegalArgumentException.class,
-                () -> new CombatCharacter("Воин", 100, 20, null)
+                () -> new CombatCharacter( new Warrior("Воин"), 100, 20, null)
         );
     }
 
     @Test
     void shouldNotAllowDefeatedCharacterToAttack() {
         CombatCharacter warrior = new CombatCharacter(
-                "Воин", 10, 20, new BalancedStrategy()
+                 new Warrior("Воин"), 10, 20, new BalancedStrategy()
         );
 
         CombatCharacter enemy = new CombatCharacter(
-                "Зомби", 100, 10, new BalancedStrategy()
+                 new Warrior("Воин Ада"), 100, 10, new BalancedStrategy()
         );
 
         warrior.receiveDamage(10);

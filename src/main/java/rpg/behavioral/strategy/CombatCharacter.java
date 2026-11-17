@@ -1,21 +1,23 @@
 
 package rpg.behavioral.strategy;
 
+import rpg.generative.character.Character;
+
 public class CombatCharacter {
 
-    private final String name;
+    private final Character character;
     private final int baseDamage;
     private int health;
     private CombatStrategy strategy;
 
     public CombatCharacter(
-            String name,
+            Character character,
             int health,
             int baseDamage,
             CombatStrategy strategy
     ) {
-        if (name == null || name.isBlank()) {
-            throw new IllegalArgumentException("У персонажа должно быть имя!");
+        if (character == null) {
+            throw new IllegalArgumentException("Должен быть персонаж!");
         }
 
         if (health <= 0 || baseDamage <= 0) {
@@ -30,7 +32,7 @@ public class CombatCharacter {
             );
         }
 
-        this.name = name;
+        this.character = character;
         this.health = health;
         this.baseDamage = baseDamage;
         this.strategy = strategy;
@@ -82,8 +84,8 @@ public class CombatCharacter {
         health = Math.max(0, health - actualDamage);
     }
 
-    public String getName() {
-        return name;
+    public String getCharacterName() {
+        return character.getName();
     }
 
     public int getHealth() {

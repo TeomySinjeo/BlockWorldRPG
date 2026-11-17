@@ -2,6 +2,8 @@
 package rpg.behavioral.mediator;
 
 import org.junit.jupiter.api.Test;
+import rpg.generative.character.Mage;
+import rpg.generative.character.Warrior;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -12,7 +14,7 @@ class BattleMediatorTest {
         GameBattleMediator mediator = new GameBattleMediator();
 
         BattleParticipant warrior =
-                new BattleParticipant("Воин", mediator, 100);
+                new BattleParticipant(new Warrior("Воин"), mediator, 100);
 
         assertDoesNotThrow(() -> mediator.addParticipant(warrior));
     }
@@ -22,10 +24,10 @@ class BattleMediatorTest {
         GameBattleMediator mediator = new GameBattleMediator();
 
         BattleParticipant warrior =
-                new BattleParticipant("Воин", mediator, 100);
+                new BattleParticipant(new Warrior("Воин"), mediator, 100);
 
         BattleParticipant mage =
-                new BattleParticipant("Маг", mediator, 80);
+                new BattleParticipant(new Mage("Маг"), mediator, 80);
 
         mediator.addParticipant(warrior);
         mediator.addParticipant(mage);
@@ -40,10 +42,10 @@ class BattleMediatorTest {
         GameBattleMediator mediator = new GameBattleMediator();
 
         BattleParticipant warrior =
-                new BattleParticipant("Воин", mediator, 100);
+                new BattleParticipant(new Warrior("Воин"), mediator, 100);
 
         BattleParticipant mage =
-                new BattleParticipant("Маг", mediator, 80);
+                new BattleParticipant(new Mage("Маг"), mediator, 80);
 
         mediator.addParticipant(warrior);
 
@@ -58,7 +60,7 @@ class BattleMediatorTest {
         GameBattleMediator mediator = new GameBattleMediator();
 
         BattleParticipant warrior =
-                new BattleParticipant("Воин", mediator, 100);
+                new BattleParticipant(new Warrior("Воин"), mediator, 100);
 
         mediator.addParticipant(warrior);
 
@@ -73,10 +75,10 @@ class BattleMediatorTest {
         GameBattleMediator mediator = new GameBattleMediator();
 
         BattleParticipant warrior =
-                new BattleParticipant("Воин", mediator, 100);
+                new BattleParticipant(new Warrior("Воин"), mediator, 100);
 
         BattleParticipant mage =
-                new BattleParticipant("Маг", mediator, 5);
+                new BattleParticipant(new Mage("Маг"), mediator, 5);
 
         mediator.addParticipant(warrior);
         mediator.addParticipant(mage);
@@ -96,10 +98,10 @@ class BattleMediatorTest {
         GameBattleMediator mediator = new GameBattleMediator();
 
         BattleParticipant warrior =
-                new BattleParticipant("Воин", mediator, 100);
+                new BattleParticipant(new Warrior("Воин"), mediator, 100);
 
         BattleParticipant mage =
-                new BattleParticipant("Маг", mediator, 80);
+                new BattleParticipant(new Mage("Маг"), mediator, 80);
 
         mediator.addParticipant(warrior);
         mediator.addParticipant(mage);
@@ -125,7 +127,7 @@ class BattleMediatorTest {
 
         assertThrows(
                 IllegalArgumentException.class,
-                () -> new BattleParticipant("Воин", mediator, 0)
+                () -> new BattleParticipant(new Warrior("Воин"), mediator, 0)
         );
     }
 }

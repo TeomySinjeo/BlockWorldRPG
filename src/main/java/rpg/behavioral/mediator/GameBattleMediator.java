@@ -37,7 +37,7 @@ public class GameBattleMediator implements BattleMediator {
         target.receiveDamage(damage);
 
         System.out.println(
-                attacker.getName() + " атакует " + target.getName()
+                attacker.getCharacterName() + " атакует " + target.getCharacterName()
                         + " урон: " + damage
         );
     }

@@ -1,15 +1,17 @@
 
 package rpg.behavioral.mediator;
 
+import rpg.generative.character.Character;
+
 public class BattleParticipant {
 
-    private final String name;
+    private final Character character;
     private final BattleMediator mediator;
     private int health;
 
-    public BattleParticipant(String name, BattleMediator mediator, int health) {
-        if (name == null || name.isBlank()) {
-            throw new IllegalArgumentException("У каждого персонаж есть свое имя!");
+    public BattleParticipant(Character character, BattleMediator mediator, int health) {
+        if (character == null) {
+            throw new IllegalArgumentException("Должен быть персонаж!");
         }
 
         if (mediator == null) {
@@ -20,13 +22,13 @@ public class BattleParticipant {
             throw new IllegalArgumentException("Здоровье не может быть меньше 0!");
         }
 
-        this.name = name;
+        this.character = character;
         this.mediator = mediator;
         this.health = health;
     }
 
-    public String getName() {
-        return name;
+    public String getCharacterName() {
+        return character.getName();
     }
 
     public int getHealth() {
@@ -50,6 +52,6 @@ public class BattleParticipant {
     }
 
     public void receiveMessage(String message) {
-        System.out.println(name + " получил сообщение: " + message);
+        System.out.println(character.getName() + " получил сообщение: " + message);
     }
 }
