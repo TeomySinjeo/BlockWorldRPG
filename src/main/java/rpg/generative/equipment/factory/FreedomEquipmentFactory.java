@@ -1,5 +1,10 @@
 
-package rpg.generative.equipment;
+package rpg.generative.equipment.factory;
+
+import rpg.generative.equipment.armor.Armor;
+import rpg.generative.equipment.armor.FreedomArmor;
+import rpg.generative.equipment.weapon.FreedomSword;
+import rpg.generative.equipment.weapon.Weapon;
 
 public class FreedomEquipmentFactory implements EquipmentFactory {
 

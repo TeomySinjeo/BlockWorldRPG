@@ -2,11 +2,11 @@
 package rpg.generative;
 
 import org.junit.jupiter.api.Test;
-import rpg.generative.equipment.FreedomEquipmentFactory;
-import rpg.generative.equipment.Armor;
-import rpg.generative.equipment.EquipmentFactory;
-import rpg.generative.equipment.VoidEquipmentFactory;
-import rpg.generative.equipment.Weapon;
+import rpg.generative.equipment.factory.FreedomEquipmentFactory;
+import rpg.generative.equipment.armor.Armor;
+import rpg.generative.equipment.factory.EquipmentFactory;
+import rpg.generative.equipment.factory.VoidEquipmentFactory;
+import rpg.generative.equipment.weapon.Weapon;
 
 import static org.junit.jupiter.api.Assertions.*;
 

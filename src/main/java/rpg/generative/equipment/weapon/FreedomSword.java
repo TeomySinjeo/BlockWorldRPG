@@ -1,11 +1,11 @@
 
-package rpg.generative.equipment;
+package rpg.generative.equipment.weapon;
 
-public class VoidAxe implements Weapon {
+public class FreedomSword implements Weapon {
 
     @Override
     public String getName() {
-        return "Топор Бездны";
+        return "Меч Свободы";
     }
 
     @Override
@@ -15,6 +15,6 @@ public class VoidAxe implements Weapon {
 
     @Override
     public String getFaction() {
-        return "Void";
+        return "Freedom";
     }
 }

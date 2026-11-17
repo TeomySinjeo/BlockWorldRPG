@@ -1,5 +1,5 @@
 
-package rpg.generative.equipment;
+package rpg.generative.equipment.weapon;
 
 public interface Weapon {
 
